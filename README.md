@@ -1,3 +1,3 @@
 # samantapsi.com.br
 
-## Cor padrão: #407e7e
+## Cor padrão: #60A5A5

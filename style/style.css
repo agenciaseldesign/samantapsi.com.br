@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -7,52 +7,150 @@
 
 /*Cores padrão*/
 /*Importação de fontes do google*/
-/*Topo header*/
-header {
-  width: 100%;
-  height: 100px;
-  background-color: #407e7e;
+/*Cor padrão do texto*/
+.fontColor {
+  color: #60A5A5;
 }
 
-header h1 {
-  text-align: left;
-  color: #ffffff;
-  font-family: "Lobster", cursive;
-  margin-top: 15px;
-}
-
-nav a {
-  text-decoration: none;
+.h {
+  font-family: "Roboto Slab", serif;
+  color: #60A5A5;
   text-align: center;
-  color: #ffffff;
-  display: block;
-  padding: 15px;
-  margin-top: 15px;
-  font-weight: 700;
+  margin-top: 30px;
 }
 
-nav a:hover {
-  background-color: #2c6868;
-  color: #ffffff;
+/* Barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
+::-webkit-scrollbar-thumb {
+  background: #60A5A5;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #60A5A5;
+}
+
+/*Titulo do site no header*/
 .titulo {
-  width: auto;
+  color: #60A5A5;
+  font-size: 22px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  width: 100%;
+}
+
+.menu {
+  -webkit-box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);
+  -moz-box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);
+  box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);
+  text-align: center;
+}
+
+/*Imagems hero*/
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+/*Tilulo do nome*/
+.samanta {
+  text-align: center;
+  color: #60A5A5;
+  font-family: "Roboto Slab", serif;
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding-top: 60px;
+}
+
+/*Atendimento*/
+.atendimento {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+/*Botão*/
+.bot_whats {
+  display: block;
+  margin: 0 auto;
+  background-color: #60A5A5;
+  color: #ffffff;
+  border: none;
+  width: 200px;
+  padding: 10px;
+}
+
+.bot_whats:hover {
+  background-color: #0a5c5c;
+}
+
+/*serviços*/
+.servicos {
+  background-color: #ececec;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.servicos h2 {
+  text-align: center;
+  color: #60A5A5;
+}
+.servicos p {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+hr.hr {
+  background-color: #fff;
+  border-top: 2px dashed #0a5c5c;
+  width: 300px;
   margin: 0 auto;
 }
 
-#logo {
-  width: 65px;
-  height: auto;
-  float: left;
+/*Galeria*/
+.card_img {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-/*# sourceMappingURL=style.scss.map */
+.small_img {
+  height: 100%;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+
+.small_img:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+iframe {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
 
 /*# sourceMappingURL=style.css.map */
