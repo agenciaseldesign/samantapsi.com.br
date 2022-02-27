@@ -88,7 +88,7 @@ hr.style18 {
   }
 
 /*Galeria*/
-.card_img{width: 350px;height: 350px;overflow: hidden; border-radius: 10px; margin: 10px;}
+.card_img{width: 350px;height: 350px; border-radius: 10px; margin: 10px;}
 
 .small_img{height: 100%;transition: all linear 0.4s;
 }
@@ -96,8 +96,7 @@ hr.style18 {
 
 .row{
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-evenly;
 }
 
 iframe{ margin-top: 30px; margin-bottom: 60px;}
@@ -119,5 +118,10 @@ i{margin-left: 8px;}
 .bot_whats{display:block; margin: 0 auto; background-color: $corpadrao; color: $corbranco; border: none; width: 200px; padding: 10px;}
 .bot_whats:hover{background-color: $corhover;}
 .atendimento{text-align: center; font-size: 16px;margin-bottom: 30px;}
-
+.card_img{width: 100%;}
+.small_img{width: 100%;}
 }
+
+
+/*Centralizar*/
+.centralizar{display: flex; justify-content: space-evenly;}

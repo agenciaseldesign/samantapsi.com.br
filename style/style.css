@@ -155,7 +155,6 @@ hr.style18:before {
 .card_img {
   width: 350px;
   height: 350px;
-  overflow: hidden;
   border-radius: 10px;
   margin: 10px;
 }
@@ -172,8 +171,7 @@ hr.style18:before {
 
 .row {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-evenly;
 }
 
 iframe {
@@ -252,6 +250,19 @@ i {
     font-size: 16px;
     margin-bottom: 30px;
   }
+
+  .card_img {
+    width: 100%;
+  }
+
+  .small_img {
+    width: 100%;
+  }
+}
+/*Centralizar*/
+.centralizar {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=style.css.map */

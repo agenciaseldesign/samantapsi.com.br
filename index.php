@@ -71,12 +71,13 @@
 
 <!-- Serviços da Página -->
 <h1 class="h" id="servicos">Serviços</h1>
-<section class="container" style="display: block; margin: 0 auto !important;">
-<hr class="style18">
+<div class="container"><hr class="style18"></div>
+<section class="container centralizar">
 
-<div>
-        <div class="row">
-            <div class="card_img small_img" style="text-align: center; background-color:#FFE4E1;padding: 15px;">
+
+
+        <div class="row centralizar">
+            <div class="card_img" style="text-align: center; background-color:#FFE4E1;padding: 15px;">
                 <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
                 <h5 class="textoMenu"><b>Psicoterapias:</b></h5>
                 <p style="text-align:justify;">A técnica utilizada é de Psicoterapia de orientação psicanalítica.  As sessões se tornam uma parada para escutar a si mesmo e 
@@ -85,7 +86,7 @@
                   <a href="#" data-toggle="modal" data-target="#psicoterapia">Leia..</a>
                 </p>
             </div>
-            <div class="card_img small_img" style="text-align: center;background-color:#FFF0F5;padding: 15px;">
+            <div class="card_img " style="text-align: center;background-color:#FFF0F5;padding: 15px;">
             <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
             <h5 class="textoMenu"><b>Serviços de prevenção</b></h5>
             <p style="text-align:justify;">O objetivo desse programa é propiciar a facilitação ao autoconhecimento de forma breve, pois são em torno de 4 encontros online.  
@@ -94,7 +95,7 @@
               <a href="#" data-toggle="modal" data-target="#prevencao">Leia..</a>
             </p>
             </div>
-            <div class="card_img small_img" style="text-align: center;background-color:#D8BFD8; padding: 15px;">
+            <div class="card_img " style="text-align: center;background-color:#D8BFD8; padding: 15px;">
             <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
             <h5 class="textoMenu"><b>Orientação Profis/Carreira</b></h5>
             <p style="text-align:justify;">Orientação de carreira possibilitam um autoconhecimento pessoal e profissional para te 
@@ -104,7 +105,6 @@
             </p>
             </div>
         </div>
-  </div>
 </section>
 
 <!-- Galeria da Página -->
