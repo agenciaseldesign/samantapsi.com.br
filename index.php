@@ -65,6 +65,12 @@
 <section class="container depoimento">
     <h1 class="h" id="depoimento">Depoimentos</h1>
     <hr class="style18">
+    <img src="pictures/google.PNG" class="hero img-fluid small_img" width="100%">
+
+
+
+
+
 </section>
 
 
