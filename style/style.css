@@ -1,11 +1,17 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&display=swap");
 * {
   margin: 0px;
   padding: 0px;
 }
 
 /*Cores padrão*/
+/*Cor da seleção*/
+::selection {
+  background: #60A5A5;
+  color: #ffffff;
+}
+
 /*Importação de fontes do google*/
 /*Cor padrão do texto*/
 .fontColor {
@@ -13,10 +19,11 @@
 }
 
 .h {
-  font-family: "Roboto Slab", serif;
-  color: #60A5A5;
+  font-family: "Roboto", sans-serif;
+  color: #0a5c5c;
   text-align: center;
   margin-top: 30px;
+  font-size: 26px;
 }
 
 /* Barra de rolagem */
@@ -41,7 +48,7 @@
 .titulo {
   color: #60A5A5;
   font-size: 22px;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poiret One", cursive;
   text-align: center;
   width: 100%;
 }
@@ -51,6 +58,10 @@
   -moz-box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);
   box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);
   text-align: center;
+}
+
+.bg {
+  background-color: #ffffff;
 }
 
 /*Imagems hero*/
@@ -67,10 +78,11 @@
 .samanta {
   text-align: center;
   color: #60A5A5;
-  font-family: "Roboto Slab", serif;
+  font-family: "Poiret One", cursive;
   margin-top: 60px;
   margin-bottom: 0px;
-  padding-top: 60px;
+  padding-top: 30px;
+  font-size: 90px !important;
 }
 
 /*Atendimento*/
@@ -97,11 +109,11 @@
 
 /*serviços*/
 .servicos {
-  background-color: #ececec;
+  background-color: #f8f8f8;
   border-radius: 10px;
   padding-bottom: 20px;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .servicos h2 {
@@ -115,17 +127,34 @@
   padding-top: 30px;
 }
 
+/*
 hr.hr {
-  background-color: #fff;
-  border-top: 2px dashed #0a5c5c;
-  width: 300px;
-  margin: 0 auto;
+	background-color: #fff;
+	border-top: 2px dashed $corpadrao; width: 300px; margin: 0 auto;margin-bottom: 60px;
+}
+*/
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: #0a5c5c;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr.style18:before {
+  display: block;
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #0a5c5c;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 
 /*Galeria*/
 .card_img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   overflow: hidden;
   border-radius: 10px;
   margin: 10px;
@@ -133,7 +162,6 @@ hr.hr {
 
 .small_img {
   height: 100%;
-  cursor: pointer;
   transition: all linear 0.4s;
 }
 
@@ -151,6 +179,79 @@ hr.hr {
 iframe {
   margin-top: 30px;
   margin-bottom: 60px;
+}
+
+i {
+  margin-left: 8px;
+}
+
+.textoMenu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.textoMenucor {
+  color: #0a5c5c;
+}
+
+/* Cel*/
+@media (max-width: 576px) {
+  /* Barra de rolagem */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #60A5A5;
+    border-radius: 0px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #60A5A5;
+  }
+
+  .samanta {
+    text-align: center;
+    color: #60A5A5;
+    font-family: "Poiret One", cursive;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    font-size: 50px !important;
+  }
+
+  .hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .bot_whats {
+    display: block;
+    margin: 0 auto;
+    background-color: #60A5A5;
+    color: #ffffff;
+    border: none;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .bot_whats:hover {
+    background-color: #0a5c5c;
+  }
+
+  .atendimento {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

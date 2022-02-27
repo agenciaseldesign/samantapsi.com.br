@@ -1,23 +1,29 @@
 *{margin: 0px; padding: 0px;}
+//body{background-color: #f0ffff;}
 /*Cores padrão*/
 $corpadrao:  #60A5A5;
-$textoTitulo:'Roboto Slab', serif;
+$textoTitulo:'Poiret One', cursive;
 $corbranco:  #ffffff;
 $corhover:   #0a5c5c;
 //$texto:     'Yanone Kaffeesatz', sans-serif;
 $corfundo01: #F8F9FA;
-$servico:    #ececec;
+$servico:    #f8f8f8;
+$textoHeaders:'Roboto', sans-serif;
 
 
-
+/*Cor da seleção*/
+::selection {
+    background: $corpadrao;
+    color: $corbranco;
+}
 
 /*Importação de fontes do google*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&display=swap');
 
 
 /*Cor padrão do texto*/
 .fontColor{color: $corpadrao;}
-.h{font-family: $textoTitulo; color: $corpadrao; text-align: center; margin-top: 30px;}
+.h{font-family: $textoHeaders; color: $corhover; text-align: center; margin-top: 30px; font-size: 26px;}
 
 /* Barra de rolagem */
 ::-webkit-scrollbar{width:8px;}
@@ -28,12 +34,13 @@ $servico:    #ececec;
 .titulo{color: $corpadrao; font-size: 22px; font-family: $textoTitulo; text-align: center; width: 100%;}
 
 .menu{-webkit-box-shadow: 1px 0px 9px 0px rgba(50, 50, 50, 0.49);-moz-box-shadow:1px 0px 9px 0px rgba(50, 50, 50, 0.49);box-shadow:1px 0px 9px 0px rgba(50, 50, 50, 0.49); text-align: center;}
+.bg{background-color: $corbranco;}
 
 /*Imagems hero*/
 .hero{display: block;margin-left: auto;margin-right: auto; margin-top: 60px; margin-bottom: 50px; border-radius: 10px;}
 
 /*Tilulo do nome*/
-.samanta{text-align: center; color: $corpadrao; font-family: $textoTitulo;margin-top: 60px; margin-bottom: 0px; padding-top: 60px;}
+.samanta{text-align: center; color: $corpadrao; font-family: $textoTitulo;margin-top: 60px; margin-bottom: 0px; padding-top: 30px; font-size: 90px !important;}
 
 /*Atendimento*/
 .atendimento{text-align: center; font-size: 16px;margin-bottom: 50px;}
@@ -43,7 +50,7 @@ $servico:    #ececec;
 .bot_whats:hover{background-color: $corhover;}
 
 /*serviços*/
-.servicos{background-color: $servico; border-radius: 10px;padding-bottom: 20px; margin-top: 30px; margin-bottom: 60px;}
+.servicos{background-color: $servico; border-radius: 10px;padding-bottom: 20px; margin-top: 30px; margin-bottom: 30px;}
 .servicos{
     h2{
         text-align: center;
@@ -56,14 +63,34 @@ $servico:    #ececec;
         padding-top: 30px;
     }
 }
+/*
 hr.hr {
 	background-color: #fff;
-	border-top: 2px dashed $corhover; width: 300px; margin: 0 auto;
+	border-top: 2px dashed $corpadrao; width: 300px; margin: 0 auto;margin-bottom: 60px;
 }
-/*Galeria*/
-.card_img{width: 400px;height: 400px;overflow: hidden; border-radius: 10px; margin: 10px;}
+*/
+hr.style18 { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: $corhover; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+  } 
+  hr.style18:before { 
+    display: block; 
+    //content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: $corhover; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
 
-.small_img{height: 100%;cursor: pointer;transition: all linear 0.4s;
+/*Galeria*/
+.card_img{width: 350px;height: 350px;overflow: hidden; border-radius: 10px; margin: 10px;}
+
+.small_img{height: 100%;transition: all linear 0.4s;
 }
 .small_img:hover{transform: scale(1.1);border-radius: 10px;}
 
@@ -74,3 +101,23 @@ hr.hr {
 }
 
 iframe{ margin-top: 30px; margin-bottom: 60px;}
+
+i{margin-left: 8px;}
+
+.textoMenu{font-family: $textoHeaders; font-weight: 500;}
+.textoMenucor{color: $corhover;}
+
+/* Cel*/
+@media (max-width: 576px) {
+    /* Barra de rolagem */
+::-webkit-scrollbar{width:8px;}
+::-webkit-scrollbar-track{background: transparent;}
+::-webkit-scrollbar-thumb{background: $corpadrao;border-radius: 0px;}::-webkit-scrollbar-thumb:hover{background:  $corpadrao;}
+
+.samanta{text-align: center; color: $corpadrao; font-family: $textoTitulo;margin-top: 40px; margin-bottom: 0px; padding-top: 30px; font-size: 50px !important;}
+.hero{display: block;margin-left: auto;margin-right: auto; margin-top: 20px; margin-bottom: 20px; border-radius: 10px;}
+.bot_whats{display:block; margin: 0 auto; background-color: $corpadrao; color: $corbranco; border: none; width: 200px; padding: 10px;}
+.bot_whats:hover{background-color: $corhover;}
+.atendimento{text-align: center; font-size: 16px;margin-bottom: 30px;}
+
+}
