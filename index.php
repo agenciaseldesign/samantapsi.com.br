@@ -78,7 +78,7 @@
 
         <div class="row centralizar">
             <div class="card_img" style="text-align: center; background-color:#FFE4E1;padding: 15px;">
-                <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
+                <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 100%; width: 40px; margin-bottom:10px;">
                 <h5 class="textoMenu"><b>Psicoterapias:</b></h5>
                 <p style="text-align:justify;">A técnica utilizada é de Psicoterapia de orientação psicanalítica.  As sessões se tornam uma parada para escutar a si mesmo e 
                   refletir com maior profundidade as circunstâncias do cotidiano. Podendo haver uma ampliação da 
@@ -87,7 +87,7 @@
                 </p>
             </div>
             <div class="card_img " style="text-align: center;background-color:#FFF0F5;padding: 15px;">
-            <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
+            <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 100%; width: 40px; margin-bottom:10px; border-radius:10px;">
             <h5 class="textoMenu"><b>Serviços de prevenção</b></h5>
             <p style="text-align:justify;">O objetivo desse programa é propiciar a facilitação ao autoconhecimento de forma breve, pois são em torno de 4 encontros online.  
               Através das atividades propostas o participante poderá se conectar com suas habilidades e alguns aspectos de sua personalidade, bem como a 
@@ -96,7 +96,7 @@
             </p>
             </div>
             <div class="card_img " style="text-align: center;background-color:#D8BFD8; padding: 15px;">
-            <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 50%; width: 40px; margin-bottom:10px;">
+            <img src="pictures/psicologia.png" style="display: block;margin: 0 auto; opacity: 100%; width: 40px; margin-bottom:10px;">
             <h5 class="textoMenu"><b>Orientação Profis/Carreira</b></h5>
             <p style="text-align:justify;">Orientação de carreira possibilitam um autoconhecimento pessoal e profissional para te 
               auxiliar melhor em suas escolhas profissionais. Durante o processo da orientação vamos alinhando juntos as suas características de sua personalidade, 
@@ -289,6 +289,12 @@ Preços e Convênios:  Todos os atendimentos são cobrados por preço particular
   </div>
 </div>
 
+<section class="container">
+<hr class="style18">
+  <h6 class="footer">www.samantapsi.com.br<br/>
+  &copy 2022
+  </h6>
+</section>
 
 </body>
 </html>

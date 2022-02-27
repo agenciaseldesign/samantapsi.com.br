@@ -265,4 +265,11 @@ i {
   justify-content: space-evenly;
 }
 
+.footer {
+  font-family: "Roboto", sans-serif;
+  color: #0a5c5c;
+  text-align: center;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */
