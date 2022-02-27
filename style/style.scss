@@ -9,6 +9,7 @@ $corhover:   #0a5c5c;
 $corfundo01: #F8F9FA;
 $servico:    #f8f8f8;
 $textoHeaders:'Roboto', sans-serif;
+$frase: 'Lobster', cursive;
 
 
 /*Cor da seleção*/
@@ -19,12 +20,13 @@ $textoHeaders:'Roboto', sans-serif;
 
 /*Importação de fontes do google*/
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 /*Cor padrão do texto*/
 .fontColor{color: $corpadrao;}
 .h{font-family: $textoHeaders; color: $corhover; text-align: center; margin-top: 30px; font-size: 26px;}
-
+.frase{font-family: $frase;color: $corhover; text-align: center; margin-top: 30px; font-size: 26px; font-weight: 500;}
 /* Barra de rolagem */
 ::-webkit-scrollbar{width:8px;}
 ::-webkit-scrollbar-track{background: transparent;}

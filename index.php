@@ -18,7 +18,7 @@
 <body>
 <!-- Header da Página -->
 <nav class="navbar navbar-expand-lg navbar-light bg menu fixed-top textoMenu">
-  <a class="navbar-brand" href="#"><span class="textoMenucor">samantapsi.com.br</span></a>
+  <a class="navbar-brand" href="#"><img src="pictures/Butterfly+Tree.png" style="width:28px; margin-right: 4px"><span class="textoMenucor">samantapsi.com.br</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -33,9 +33,6 @@
       <li class="nav-item">
         <a class="nav-link" href="#galeria"><span class="textoMenucor"><i class="bi bi-image"></i> Galeria</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#depoimento"><span class="textoMenucor"><i class="bi bi-chat-dots"></i> Depoimento</span></a>
-      </li>
     </ul>
     <span class="navbar-text">
     <span class="textoMenucor">Atendimento Online</span>
@@ -46,14 +43,17 @@
 <section class="container ">
     <h1 class="samanta">Samanta Perez Santos</h1>
 </section>
-
+<!-- Header da Página -->
+<section class="container ">
+    <h1 class="frase"><b><i>" Quem olha para fora sonha, quem olha para dentro desperta."</i></b></h1>
+</section>
 <section class="container">
     <img src="pictures/samanta_hero.jpg" class="hero img-fluid small_img" width="100%">
 </section>
 
 <section class="container">
     <p class="atendimento">Atendimento On-line | Adolescentes, adultos, gestantes e mulheres no pós-parto | Psicoterapia | 
-    Orientação Profissional | <br/>CRP 06/157974 Aberto de Segunda á Sexta até 20:00.</p>
+    Orientação Profissional | <br/>CRP 06/157974 Aberto de <b>Segunda a Sexta até 20:00.</b></p>
 </section>
 
 <section class="container">
@@ -65,12 +65,10 @@
 <section class="container depoimento">
     <h1 class="h" id="depoimento">Depoimentos</h1>
     <hr class="style18">
-    <img src="pictures/google.PNG" class="hero img-fluid small_img" width="100%">
-
-
-
-
-
+    <div>
+        <div class="row">
+            <a href="https://www.google.com/search?hl=pt-BR&gl=br&q=Psic%C3%B3loga+Samanta+Perez+Santos+%7C+Atendimento+Online+para+adultos,+adolescentes,+gestantes+e+mulheres+no+p%C3%B3s-parto+%7C+Psicoterapia+%7C+Orienta%C3%A7%C3%A3o+Profissional+e+Carreira&ludocid=12932589513119221807&lsig=AB86z5XuaqszL2BQmoPUH02Nr43G#lrd=0x94ce67be4cc7eeb3:0xb379c9a47369c82f,1"><img src="pictures/google.png" class="hero img-fluid" width="100%"></a>
+        </div>
 </section>
 
 
@@ -120,24 +118,24 @@
 <div>
         <div class="row">
             <div class="card_img">
-                <img src="pictures/samanta.jpg" class="small_img">
+                <img src="pictures/samanta1.png" class="small_img">
             </div>
             <div class="card_img">
-                <img src="pictures/samanta2.jpg" class="small_img">
+                <img src="pictures/samanta2.png" class="small_img">
             </div>
             <div class="card_img">
-                <img src="pictures/samanta3.jpg" class="small_img">
+                <img src="pictures/samanta3.png" class="small_img">
             </div>
         </div>
         <div class="row">
             <div class="card_img">
-                <img src="pictures/samanta.jpg" class="small_img">
+                <img src="pictures/samanta1.png" class="small_img">
             </div>
             <div class="card_img">
-                <img src="pictures/samanta2.jpg" class="small_img">
+                <img src="pictures/samanta2.png" class="small_img">
             </div>
             <div class="card_img">
-                <img src="pictures/samanta3.jpg" class="small_img">
+                <img src="pictures/samanta3.png" class="small_img">
             </div>
         </div>
   </div>
@@ -148,7 +146,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0524636660025!2d-46.65311668497802!3d-23.566559167669542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b88451a681%3A0xe7a211eccd7317e8!2sAv.%20Paulista%2C%20807%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-100!5e0!3m2!1spt-BR!2sbr!4v1645925978819!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
 
 <!-- Whats app da Página -->
-<a href="https://api.whatsapp.com/send?l=pt&amp;phone=55041999999"><img 
+<a href="https://api.whatsapp.com/send?l=pt&amp;phone=55011986672620"><img 
   src="https://i.imgur.com/ryESuZ5.png" style="height:64px; position:fixed; bottom: 25px; right: 
   25px; z-index:99999;" data-selector="img">
 </a>
@@ -191,24 +189,16 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-       
+      <div class="modal-body" style="text-align: justify;">
+<b>Psicoterapias: Como são os atendimentos e como os atendimentos podem me auxiliar?</b><br/>
 
-      Psicoterapias: Como são os atendimentos e como os atendimentos podem me auxiliar?
-
-A técnica utilizada é de Psicoterapia de orientação psicanalítica.  As sessões se tornam uma parada para escutar a si mesmo e refletir com maior profundidade as circunstâncias do cotidiano e da história de vida. Nesse sentido, poderá haver uma ampliação da compreensão sobre suas dúvidas, seus sentimentos, desejos, angústias e conflitos inconscientes. A análise dessas circunstâncias pode propiciar outras possibilidades de ação e tomadas de atitudes,  possível melhoria nas relações, e na saúde emocional.
-
-A dificuldade de esclarecer todos esses aspectos, e a falta de autoconhecimento e apoio, pode contribuir para  adoecimentos psicólogicos, como por exemplo, a ansiedade e a depressão. 
- 
-
-
-Tipos de Psicoterapia e quando utilizá-las:
-
-Orientação Psicológica: 1 a 4 sessões.  É uma orientação e acolhimento em algum momento de necessidade. Público indicado: Adultos, Adolescentes, Gestantes e Puérperas (mulheres no pós-parto).
-
+<P>A técnica utilizada é de Psicoterapia de orientação psicanalítica.  As sessões se tornam uma parada para escutar a si mesmo e refletir com maior profundidade as circunstâncias do cotidiano e da história de vida. Nesse sentido, poderá haver uma ampliação da compreensão sobre suas dúvidas, seus sentimentos, desejos, angústias e conflitos inconscientes. 
+A análise dessas circunstâncias pode propiciar outras possibilidades de ação e tomadas de atitudes,  possível melhoria nas relações, e na saúde emocional.</P>
+<P>A dificuldade de esclarecer todos esses aspectos, e a falta de autoconhecimento e apoio, pode contribuir para  adoecimentos psicólogicos, como por exemplo, a ansiedade e a depressão.</P> 
+<b>Tipos de Psicoterapia e quando utilizá-las:</b>
+<p><b>Orientação Psicológica:</b> 1 a 4 sessões.  É uma orientação e acolhimento em algum momento de necessidade. Público indicado: Adultos, Adolescentes, Gestantes e Puérperas (mulheres no pós-parto).
 Psicoterapia Breve: Em torno de 20 sessões. O objetivo é a intervenção em alguma questão-problema ou área específica e delimitada a ser desenvolvida. Como por exemplo: Problema profissional ou problema de relacionamento.  Público indicado: Adultos, Adolescentes, Gestantes e Puérperas (mulheres no pós-parto).
-
-Psicoterapia: Sem prazo pré-determinado. O objetivo da psicoterapia é  possibilitar ser trabalhado, refletido e analisar - com maior profundidade - sobre diversos temas e aspectos a desenvolver.  Público indicado: Adultos, Adolescentes, Gestantes e Puérperas (mulheres no pós-parto)
+Psicoterapia: Sem prazo pré-determinado. O objetivo da psicoterapia é  possibilitar ser trabalhado, refletido e analisar - com maior profundidade - sobre diversos temas e aspectos a desenvolver.  Público indicado: Adultos, Adolescentes, Gestantes e Puérperas (mulheres no pós-parto).</p>
 
 
       </div>
@@ -230,20 +220,17 @@ Psicoterapia: Sem prazo pré-determinado. O objetivo da psicoterapia é  possibi
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="text-align: justify;">
        
-
-      Serviços de prevenção e quando utilizá-los: 
-
-
-Autoconhecimento Breve:  Para aqueles que não querem entrar em processo de psicoterapia e almejam saber um pouco mais de si mesmo, essa é uma das possibilidades. 
-O objetivo desse programa é propiciar a facilitação ao autoconhecimento de forma breve, pois são em torno de 4 encontros online.  Através das atividades 
-propostas o participante poderá se conectar com suas habilidades e alguns aspectos de sua personalidade, bem como a avaliação da saúde emocional atual.
+<b>Serviços de prevenção e quando utilizá-los:</b> 
+<p>Autoconhecimento Breve:  Para aqueles que não querem entrar em processo de psicoterapia e almejam saber um pouco mais de si mesmo, essa é uma das possibilidades. 
+O objetivo desse programa é propiciar a facilitação ao autoconhecimento de forma breve, pois são em torno de 4 encontros online.</p>  
+<p>Através das atividades propostas o participante poderá se conectar com suas habilidades e alguns aspectos de sua personalidade, bem como a avaliação da saúde emocional atual.
 Pré-Natal Psicológico:    O objetivo desse programa é trabalhar o preparo emocional para a gestação e pós-parto da mulher gestante e da sua familia. 
 Os temas dos 7 encontros são focados nos aspectos emocionais da gestação, pós-parto, maternidade e desenvolvimento emocional do bebê. 
-São 7 workshops (encontros virtuais) de aproximadamente 1:30 hora de duração em cada encontro.
-Apoio psicológico para mulheres no puerpério:  O puerpério é um momento de muitas adaptações, inseguranças e por vezes instabilidades emocionais. 
-Contar com um apoio psicológico nesse momento pode ser muito importante para a mulher. O apoio pode ser semanal, quinzenal ou esporádico, de acordo com as possibilidades da mulher. 
+São 7 workshops (encontros virtuais) de aproximadamente 1:30 hora de duração em cada encontro.</p>
+<p>Apoio psicológico para mulheres no puerpério:  O puerpério é um momento de muitas adaptações, inseguranças e por vezes instabilidades emocionais. 
+Contar com um apoio psicológico nesse momento pode ser muito importante para a mulher. O apoio pode ser semanal, quinzenal ou esporádico, de acordo com as possibilidades da mulher.</p> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary bot_whats" data-dismiss="modal">Fechar</button>
@@ -263,29 +250,25 @@ Contar com um apoio psicológico nesse momento pode ser muito importante para a 
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body" style="text-align: justify;">
        
 
-      A orientação profissional e orientação de carreira possibilitam um autoconhecimento pessoal e profissional para te auxiliar melhor em suas escolhas profissionais. Durante o processo da orientação vamos alinhando juntos as suas características de sua personalidade, bem como suas habilidades e aptidões, seus desejos e experiências de vida.  
+A orientação profissional e orientação de carreira possibilitam um autoconhecimento pessoal e profissional para te auxiliar melhor em suas escolhas profissionais.
+Durante o processo da orientação vamos alinhando juntos as suas características de sua personalidade, bem como suas habilidades e aptidões, seus desejos e experiências de vida.  
 
-Para Quem é indicada a Orientação Profissional e de carreira?  
+<b>Para Quem é indicada a Orientação Profissional e de carreira?</b>
 
-As pessoas que estão escolhendo sua primeira profissão (jovens a partir do ensino médio)
+<p>As pessoas que estão escolhendo sua primeira profissão (jovens a partir do ensino médio)
 As pessoas que estão no início de suas carreiras (estudantes do ensino técnico, estudantes da graduação ou recém-formados) 
- As pessoas que já têm uma trajetória profissional e almejam mudar de atividade, ou mesmo acrescentar uma nova atividade dentro de um curto, médio, ou longo prazo. 
- Aqueles que saíram ou estão saindo do mercado de trabalho e/ou almejam se aposentar e realizar outras tarefas profissionais.   
+As pessoas que já têm uma trajetória profissional e almejam mudar de atividade, ou mesmo acrescentar uma nova atividade dentro de um curto, médio, ou longo prazo. 
+Aqueles que saíram ou estão saindo do mercado de trabalho e/ou almejam se aposentar e realizar outras tarefas profissionais.</p>   
 
-Como é feita a orientação e o que é necessário? 
+<b>Como é feita a orientação e o que é necessário?</b> 
+<p>São em torno de 6 encontros online, com duração entre 1:00 e 1:30 hrs, de acordo com a singularidade e necessidade de cada pessoa. É preciso ter um computador, internet e estar em um local tranqüilo e privativo. Serão pedidas algumas atividades extras. O orientando precisa estar envolvido e responder com maior sinceridade possível todas as perguntas das atividades solicitadas.</p>
 
-São em torno de 6 encontros online, com duração entre 1:00 e 1:30 hrs, de acordo com a singularidade e necessidade de cada pessoa. É preciso ter um computador, internet e estar em um local tranqüilo e privativo. Serão pedidas algumas atividades extras. O orientando precisa estar envolvido e responder com maior sinceridade possível todas as perguntas das atividades solicitadas. 
-
-O que esperar do programa de orientação? Quais são as vantagens e Benefícios? 
-
-Todo o processo de orientação é realizado por psicóloga atuante na clínica e com experiência em organizações, do qual vai te auxiliar melhor em seu autoconhecimento pessoal (as características da sua personalidade, suas habilidades, a sua saúde mental e investigação do histórico profissional/estudantil). Com essas avaliações a orientação servirá como uma bússola norteadora e uma escolha profissional mais consciente, ajudando possivelmente em um melhor desempenho profissional, bem como poderá construir metas e objetivos futuros. Ao final da orientação você vai receber todas as suas informações que foram levantadas durante os encontros em formato de material digital, assim você poderá recorrer ao material em qualquer fase de sua vida e principalmente que envolva escolha profissional e então você poderá refletir e decidir com maior amplitude diante de possíveis novas e futuras ocupações.
-
-
-
-Preços e Convênios:  Todos os atendimentos são cobrados por preço particular. Para consultar o preço clique no botão do whats app e será muito bom te conhecer e passar valores dos serviços. Quem tem convênio pode optar pelo atendimento via reembolso, alguns convênios aceitam pagamento vai reembolso, consulte seu convênio. Para maiores informações entre em contato e fale comigo, clicando no botão whatsapp na página superior do site. 
+<b>O que esperar do programa de orientação? Quais são as vantagens e Benefícios?</b>
+<p>Todo o processo de orientação é realizado por psicóloga atuante na clínica e com experiência em organizações, do qual vai te auxiliar melhor em seu autoconhecimento pessoal (as características da sua personalidade, suas habilidades, a sua saúde mental e investigação do histórico profissional/estudantil). Com essas avaliações a orientação servirá como uma bússola norteadora e uma escolha profissional mais consciente, ajudando possivelmente em um melhor desempenho profissional, bem como poderá construir metas e objetivos futuros. Ao final da orientação você vai receber todas as suas informações que foram levantadas durante os encontros em formato de material digital, assim você poderá recorrer ao material em qualquer fase de sua vida e principalmente que envolva escolha profissional e então você poderá refletir e decidir com maior amplitude diante de possíveis novas e futuras ocupações.
+Preços e Convênios:  Todos os atendimentos são cobrados por preço particular. Para consultar o preço clique no botão do whats app e será muito bom te conhecer e passar valores dos serviços. Quem tem convênio pode optar pelo atendimento via reembolso, alguns convênios aceitam pagamento vai reembolso, consulte seu convênio. Para maiores informações entre em contato e fale comigo, clicando no botão whatsapp na página superior do site.</p>
 
       </div>
       <div class="modal-footer">
@@ -301,6 +284,5 @@ Preços e Convênios:  Todos os atendimentos são cobrados por preço particular
   &copy 2022
   </h6>
 </section>
-
 </body>
 </html>
