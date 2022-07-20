@@ -131,7 +131,7 @@
 
 							
 						</p>
-						<a href="index">Voltar à página inicial</a>
+						<a href="home">Voltar à página inicial</a>
 						<hr>
 						
 						<div class="row">

@@ -143,7 +143,7 @@
                                 Agende hoje sua sessão com rapidez e comodidade.
 
 							</p>
-							<a href="index">Voltar à página inicial</a>
+							<a href="home">Voltar à página inicial</a>
 							<!--<section>
 								<header>
 									<h3>Como são os atendimentos?</h3>
@@ -213,10 +213,10 @@
 								<article class="col-4 col-12-mobile special">
 									<a href="orientacao" class="image featured"><img src="images/profissional2.jpg" alt="Orientação" /></a>
 									<header>
-										<h3><a href="#">Orientação Profissional</a></h3>
+										<h3><a href="#">Orientação</a></h3>
 									</header>
 									<p style="text-align: center;">
-										Se você é estudante e/ou trabalhador.
+									Vocacional e Carreira.
 									</p>
 								</article>
 								<article class="col-4 col-12-mobile special">

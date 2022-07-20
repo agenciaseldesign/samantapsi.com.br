@@ -197,7 +197,7 @@
 									egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna.
 								</p>
 							</section>-->
-							<a href="index">Voltar à página inicial</a>
+							<a href="home">Voltar à página inicial</a>
 						</article>
 						
 						<hr />
@@ -223,10 +223,10 @@
 							<article class="col-4 col-12-mobile special">
 								<a href="orientacao" class="image featured"><img src="images/profissional2.jpg" alt="Orientação Profissionais" /></a>
 								<header>
-									<h3><a href="orientacao">Oreintação Profissional</a></h3>
+									<h3><a href="orientacao">Oreintação</a></h3>
 								</header>
 								<p style="text-align: center;">
-									Se você é estudante e/ou trabalhador.
+								Vocacional e Carreira.
 								</p>
 							</article>
 						</div>
